@@ -43,8 +43,8 @@ int becgalben = 12;
 int becverde = 13;
 int calibration_angle = 0;
 int pnt = 0;
-float pointx[5] = { 47.01025, 47.01018, 47.01013, 47.01007, 47.01002 };
-float pointy[5] = { 26.87442, 26.87422, 26.87412, 26.87394, 26.87387 };
+float pointx[5] = {  };
+float pointy[5] = {};
 int size_of_coordinates = sizeof(pointx) / sizeof(int);
 
 constexpr double EARTH_RADIUS = 6371000;  // Radius of the Earth in meters
